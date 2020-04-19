@@ -1,0 +1,411 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.prem.docsify"
+4    android:installLocation="auto"
+5    android:versionCode="2003"
+6    android:versionName="2.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="26" />
+10-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:7:5-65
+12-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:7:22-62
+13
+14    <uses-feature
+14-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:9:5-11:36
+15        android:name="android.hardware.camera"
+15-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:10:9-47
+16        android:required="false" />
+16-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:11:9-33
+17    <uses-feature
+17-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:12:5-14:36
+18        android:name="android.hardware.camera.autofocus"
+18-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:13:9-57
+19        android:required="false" />
+19-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:14:9-33
+20
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:16:5-81
+21-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:16:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:17:5-80
+22-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:17:22-77
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:18:5-67
+23-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:18:22-64
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:19:5-79
+24-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:19:22-76
+25
+26    <!-- Optional permission for Analytics to run. -->
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:25:5-67
+27-->[com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:25:22-65
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:23:5-82
+28-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:23:22-79
+29
+30    <permission
+30-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:25:5-26:47
+31        android:name="com.prem.docsify.permission.C2D_MESSAGE"
+31-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:25:17-71
+32        android:protectionLevel="signature" />
+32-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:26:9-44
+33
+34    <uses-permission android:name="com.prem.docsify.permission.C2D_MESSAGE" />
+34-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:28:5-79
+34-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:28:22-76
+35
+36    <application
+36-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:21:5-170:19
+37        android:name="com.prem.docsify.DocumentScannerApplication"
+37-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:22:9-51
+38        android:allowBackup="true"
+38-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:23:9-35
+39        android:debuggable="true"
+40        android:fullBackupContent="false"
+40-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:24:9-42
+41        android:hardwareAccelerated="true"
+41-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:25:9-43
+42        android:icon="@mipmap/ic_launcher"
+42-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:26:9-43
+43        android:label="@string/app_name"
+43-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:27:9-41
+44        android:largeHeap="true"
+44-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:28:9-33
+45        android:supportsRtl="true"
+45-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:29:9-35
+46        android:testOnly="true"
+47        android:theme="@style/Theme.AppCompat" >
+47-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:30:9-47
+48        <activity
+48-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:31:9-39:20
+49            android:name="com.prem.docsify.activities.LoginActivity"
+49-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:32:13-53
+50            android:screenOrientation="portrait" >
+50-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:33:13-49
+51            <intent-filter>
+51-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:34:13-38:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:35:17-69
+52-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:35:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:37:17-77
+54-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:37:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <receiver android:name="com.prem.docsify.WidgetProvider" >
+58-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:43:9-50:20
+58-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:43:19-48
+59            <intent-filter>
+59-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:44:13-46:29
+60                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+60-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:45:17-84
+60-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:45:25-81
+61            </intent-filter>
+62
+63            <meta-data
+63-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:47:13-49:62
+64                android:name="android.appwidget.provider"
+64-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:48:17-58
+65                android:resource="@xml/simple_widget_info" />
+65-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:49:17-59
+66        </receiver>
+67
+68        <meta-data
+68-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:52:9-54:35
+69            android:name="com.google.android.gms.vision.DEPENDENCIES"
+69-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:53:13-70
+70            android:value="ocr" />
+70-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:54:13-32
+71
+72        <!--
+73          Optionally, register AnalyticsReceiver and AnalyticsService to support background
+74          dispatching on non-Google Play devices
+75        -->
+76        <receiver
+76-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:60:9-66:20
+77            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+77-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:61:13-78
+78            android:enabled="true" >
+78-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:62:13-35
+79            <intent-filter>
+79-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:63:13-65:29
+80                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+80-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:64:17-94
+80-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:64:25-91
+81            </intent-filter>
+82        </receiver>
+83
+84        <service
+84-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:68:9-71:40
+85            android:name="com.google.android.gms.analytics.AnalyticsService"
+85-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:69:13-77
+86            android:enabled="true"
+86-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:70:13-35
+87            android:exported="false" />
+87-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:71:13-37
+88
+89        <!--
+90             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+91             installation campaign reporting
+92        -->
+93        <receiver
+93-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:77:9-83:20
+94            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+94-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:78:13-85
+95            android:exported="true" >
+95-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:79:13-36
+96            <intent-filter>
+96-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:80:13-82:29
+97                <action android:name="com.android.vending.INSTALL_REFERRER" />
+97-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:81:17-79
+97-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:81:25-76
+98            </intent-filter>
+99        </receiver>
+100
+101        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+101-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:85:9-92
+101-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:85:18-89
+102
+103        <activity
+103-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:87:9-100:20
+104            android:name="com.prem.docsify.DocumentScannerActivity"
+104-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:88:13-52
+105            android:configChanges="orientation|keyboardHidden|screenSize"
+105-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:89:13-74
+106            android:label="@string/title_activity_document_scanner"
+106-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:90:13-68
+107            android:screenOrientation="portrait"
+107-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:91:13-49
+108            android:theme="@style/FullscreenTheme.NoActionBar" >
+108-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:92:13-63
+109            <intent-filter>
+109-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:95:13-99:29
+110                <action android:name="android.media.action.IMAGE_CAPTURE" />
+110-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:96:17-77
+110-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:96:25-74
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:98:17-76
+112-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:98:27-73
+113            </intent-filter>
+114        </activity>
+115        <activity
+115-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:101:9-108:20
+116            android:name="com.prem.docsify.GalleryGridActivity"
+116-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:102:13-48
+117            android:configChanges="orientation|keyboardHidden|screenSize"
+117-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:103:13-74
+118            android:label="@string/title_activity_gallery"
+118-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:104:13-59
+119            android:screenOrientation="portrait"
+119-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:105:13-49
+120            android:theme="@style/FullscreenTheme" >
+120-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:106:13-51
+121        </activity>
+122        <activity
+122-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:109:9-118:20
+123            android:name="com.prem.docsify.SavedTextsList"
+123-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:110:13-43
+124            android:label="@string/saved_texts_list"
+124-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:111:13-53
+125            android:launchMode="singleTask"
+125-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:112:13-44
+126            android:parentActivityName="com.prem.docsify.OcrCaptureActivity"
+126-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:113:13-61
+127            android:theme="@style/FullscreenTheme" >
+127-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:114:13-51
+128            <meta-data
+128-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:115:13-117:55
+129                android:name="android.support.PARENT_ACTIVITY"
+129-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:116:17-63
+130                android:value=".OcrCaptureActivity" />
+130-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:117:17-52
+131        </activity>
+132
+133        <!-- todo 5: Add provider to AndroidManifest.xml -->
+134        <provider
+134-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:121:9-123:54
+135            android:name="com.prem.docsify.data.TextProvider"
+135-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:122:13-62
+136            android:authorities="com.prem.docsify" />
+136-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:123:13-51
+137
+138        <activity
+138-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:125:9-133:20
+139            android:name="com.prem.docsify.TextDetailActivity"
+139-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:126:13-47
+140            android:label="@string/edit_text_detail"
+140-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:127:13-53
+141            android:parentActivityName="com.prem.docsify.SavedTextsList"
+141-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:128:13-57
+142            android:theme="@style/FullscreenTheme" >
+142-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:129:13-51
+143            <meta-data
+143-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:115:13-117:55
+144                android:name="android.support.PARENT_ACTIVITY"
+144-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:116:17-63
+145                android:value=".SavedTextsList" />
+145-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:117:17-52
+146        </activity>
+147        <activity
+147-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:135:9-138:54
+148            android:name="com.prem.docsify.FullScreenViewActivity"
+148-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:136:13-51
+149            android:label="@string/title_activity_full_image"
+149-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:137:13-62
+150            android:theme="@style/FullscreenTheme" />
+150-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:138:13-51
+151        <activity
+151-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:139:9-142:47
+152            android:name="com.prem.docsify.SettingsActivity"
+152-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:140:13-45
+153            android:label="@string/settings"
+153-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:141:13-45
+154            android:theme="@style/AppTheme" />
+154-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:142:13-44
+155        <activity
+155-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:143:9-152:20
+156            android:name="com.prem.docsify.OcrCaptureActivity"
+156-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:144:13-47
+157            android:label="Read Text"
+157-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:145:13-38
+158            android:parentActivityName="com.prem.docsify.DocumentScannerActivity"
+158-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:146:13-66
+159            android:theme="@style/AppTheme" >
+159-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:147:13-44
+160
+161            <!-- The meta-data element is needed for versions lower than 4.1 -->
+162            <meta-data
+162-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:115:13-117:55
+163                android:name="android.support.PARENT_ACTIVITY"
+163-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:116:17-63
+164                android:value=".DocumentScannerActivity" />
+164-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:117:17-52
+165        </activity>
+166        <!--
+167 ATTENTION: This was auto-generated to add Google Play services to your project for
+168        App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+169        -->
+170        <meta-data
+170-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:154:9-156:69
+171            android:name="com.google.android.gms.version"
+171-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:155:13-58
+172            android:value="@integer/google_play_services_version" />
+172-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:156:13-66
+173
+174        <activity
+174-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:160:9-162:52
+175            android:name="com.prem.docsify.activities.RegisterActivity"
+175-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:161:13-56
+176            android:screenOrientation="portrait" />
+176-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:162:13-49
+177        <activity
+177-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:163:9-165:52
+178            android:name="com.prem.docsify.activities.UsersListActivity"
+178-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:164:13-57
+179            android:screenOrientation="portrait" />
+179-->E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:165:13-49
+180        <activity
+180-->[com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:20:9-22:45
+181            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+181-->[com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:20:19-85
+182            android:exported="false"
+182-->[com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:22:19-43
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+183-->[com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:21:19-78
+184
+185        <receiver
+185-->[com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:28:7-34:18
+186            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+186-->[com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:29:11-83
+187            android:enabled="true" >
+187-->[com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:30:11-33
+188            <intent-filter>
+188-->[com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:31:9-33:25
+189                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+189-->[com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:32:11-77
+189-->[com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:32:19-75
+190            </intent-filter>
+191        </receiver>
+192
+193        <service
+193-->[com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:36:7-39:37
+194            android:name="com.google.android.gms.measurement.AppMeasurementService"
+194-->[com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:37:11-82
+195            android:enabled="true"
+195-->[com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:38:11-33
+196            android:exported="false" />
+196-->[com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:39:11-35
+197
+198        <receiver
+198-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:32:9-41:20
+199            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+199-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:33:13-78
+200            android:exported="true"
+200-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:34:13-36
+201            android:permission="com.google.android.c2dm.permission.SEND" >
+201-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:35:13-73
+202            <intent-filter>
+202-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:36:13-40:29
+203                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+203-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:37:17-81
+203-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:37:25-78
+204                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+204-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:38:17-86
+204-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:38:25-83
+205
+206                <category android:name="com.prem.docsify" />
+206-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:39:17-61
+206-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:39:27-58
+207            </intent-filter>
+208        </receiver>
+209        <!--
+210 Internal (not exported) receiver used by the app to start its own exported services
+211             without risk of being spoofed.
+212        -->
+213        <receiver
+213-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:45:9-47:40
+214            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+214-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:46:13-86
+215            android:exported="false" />
+215-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:47:13-37
+216        <!--
+217 FirebaseInstanceIdService performs security checks at runtime,
+218             no need for explicit permissions despite exported="true"
+219        -->
+220        <service
+220-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:51:9-57:19
+221            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+221-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:52:13-77
+222            android:exported="true" >
+222-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:53:13-36
+223            <intent-filter android:priority="-500" >
+223-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:54:13-56:29
+223-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:54:28-51
+224                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+224-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:55:17-80
+224-->[com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:55:25-77
+225            </intent-filter>
+226        </service>
+227
+228        <provider
+228-->[com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:7:9-11:39
+229            android:name="com.google.firebase.provider.FirebaseInitProvider"
+229-->[com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:9:13-58
+230            android:authorities="com.prem.docsify.firebaseinitprovider"
+230-->[com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:8:13-72
+231            android:exported="false"
+231-->[com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:10:13-37
+232            android:initOrder="100" />
+232-->[com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:11:13-36
+233    </application>
+234
+235</manifest>

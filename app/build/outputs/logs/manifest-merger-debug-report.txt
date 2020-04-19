@@ -1,0 +1,536 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:2:1-172:12
+INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:2:1-172:12
+INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:2:1-172:12
+INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:2:1-172:12
+MERGED from [com.afollestad:drag-select-recyclerview:0.3.6] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\688970594ee22a866c3fb983588fff99\drag-select-recyclerview-0.3.6\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\a6f570c68bd485fd2be3ba69ae0ce0f7\fab-toolbar-1.2.0\AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-vision:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\7de06ac3d64fd54bb476605019bdb4c5\play-services-vision-9.2.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\dee5790e26a5e0ab87c131bd21a6f387\play-services-appindexing-9.2.1\AndroidManifest.xml:16:1-20:12
+MERGED from [:openCVLibrary310] E:\Android Apps\Document-Scanner\openCVLibrary310\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\c6f2a887dc6e4ecdb7189059249821c9\firebase-core-9.2.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:design:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\ef750851e0fe2166dba720019198449c\design-23.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4e769863cf26204329dffc44080e8638\appcompat-v7-23.3.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:recyclerview-v7:24.0.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6354af43f6bbe8fcb90e6f0c1ae9ade5\recyclerview-v7-24.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\0bb6e05f980dc881c4851f8adb3fb7b2\play-services-analytics-impl-9.2.1\AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:16:1-60:12
+MERGED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\785561a068d3cf65a24fb56196d33ceb\play-services-tasks-9.2.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4f9a1b12f37de073c1680f8ebf3a026f\play-services-basement-9.2.1\AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\fca3168638df2f89b63402d35d766940\animated-vector-drawable-23.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\683d11e93e0749cbc7852a0cc150b95c\support-vector-drawable-23.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\a2860f80a35768057a640b5b4cd1ba77\support-v4-24.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:exifinterface:28.0.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\e0bc0b70de41b464788bb188f2619846\exifinterface-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\bade4d37b9586e47e40b424cf084e94f\cardview-v7-23.4.0\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:2:1-172:12
+INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:2:1-172:12
+INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:2:1-172:12
+	package
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:2:1-172:12
+		INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:2:1-172:12
+		INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:4:5-35
+uses-permission#android.permission.CAMERA
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:7:22-62
+uses-feature#android.hardware.camera
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:9:5-11:36
+	android:required
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:10:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:13:9-57
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.INTERNET
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:18:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\0bb6e05f980dc881c4851f8adb3fb7b2\play-services-analytics-impl-9.2.1\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\0bb6e05f980dc881c4851f8adb3fb7b2\play-services-analytics-impl-9.2.1\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\0bb6e05f980dc881c4851f8adb3fb7b2\play-services-analytics-impl-9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\0bb6e05f980dc881c4851f8adb3fb7b2\play-services-analytics-impl-9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:19:22-76
+application
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:21:5-170:19
+MERGED from [com.afollestad:drag-select-recyclerview:0.3.6] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\688970594ee22a866c3fb983588fff99\drag-select-recyclerview-0.3.6\AndroidManifest.xml:12:5-20
+MERGED from [com.afollestad:drag-select-recyclerview:0.3.6] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\688970594ee22a866c3fb983588fff99\drag-select-recyclerview-0.3.6\AndroidManifest.xml:12:5-20
+MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\a6f570c68bd485fd2be3ba69ae0ce0f7\fab-toolbar-1.2.0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\a6f570c68bd485fd2be3ba69ae0ce0f7\fab-toolbar-1.2.0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\7de06ac3d64fd54bb476605019bdb4c5\play-services-vision-9.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\7de06ac3d64fd54bb476605019bdb4c5\play-services-vision-9.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\dee5790e26a5e0ab87c131bd21a6f387\play-services-appindexing-9.2.1\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\dee5790e26a5e0ab87c131bd21a6f387\play-services-appindexing-9.2.1\AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-core:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\c6f2a887dc6e4ecdb7189059249821c9\firebase-core-9.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\c6f2a887dc6e4ecdb7189059249821c9\firebase-core-9.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:design:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\ef750851e0fe2166dba720019198449c\design-23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\ef750851e0fe2166dba720019198449c\design-23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4e769863cf26204329dffc44080e8638\appcompat-v7-23.3.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4e769863cf26204329dffc44080e8638\appcompat-v7-23.3.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\0bb6e05f980dc881c4851f8adb3fb7b2\play-services-analytics-impl-9.2.1\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\0bb6e05f980dc881c4851f8adb3fb7b2\play-services-analytics-impl-9.2.1\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\785561a068d3cf65a24fb56196d33ceb\play-services-tasks-9.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\785561a068d3cf65a24fb56196d33ceb\play-services-tasks-9.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4f9a1b12f37de073c1680f8ebf3a026f\play-services-basement-9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4f9a1b12f37de073c1680f8ebf3a026f\play-services-basement-9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\fca3168638df2f89b63402d35d766940\animated-vector-drawable-23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\fca3168638df2f89b63402d35d766940\animated-vector-drawable-23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\683d11e93e0749cbc7852a0cc150b95c\support-vector-drawable-23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\683d11e93e0749cbc7852a0cc150b95c\support-vector-drawable-23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\a2860f80a35768057a640b5b4cd1ba77\support-v4-24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\a2860f80a35768057a640b5b4cd1ba77\support-v4-24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\bade4d37b9586e47e40b424cf084e94f\cardview-v7-23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\bade4d37b9586e47e40b424cf084e94f\cardview-v7-23.4.0\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:27:9-41
+	android:hardwareAccelerated
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:25:9-43
+	android:fullBackupContent
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:24:9-42
+	android:largeHeap
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:28:9-33
+	android:icon
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:26:9-43
+	android:allowBackup
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:30:9-47
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:22:9-51
+activity#com.prem.docsify.activities.LoginActivity
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:31:9-39:20
+	android:screenOrientation
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:32:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:37:27-74
+receiver#com.prem.docsify.WidgetProvider
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:43:9-50:20
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:43:19-48
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:44:13-46:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:45:17-84
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:45:25-81
+meta-data#android.appwidget.provider
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:47:13-49:62
+	android:resource
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:49:17-59
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:48:17-58
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:52:9-54:35
+	android:value
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:54:13-32
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:53:13-70
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:60:9-66:20
+	android:enabled
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:62:13-35
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:61:13-78
+intent-filter#action:name:com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:63:13-65:29
+action#com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:64:17-94
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:64:25-91
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:68:9-71:40
+	android:enabled
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:70:13-35
+	android:exported
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:71:13-37
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:69:13-77
+receiver#com.google.android.gms.analytics.CampaignTrackingReceiver
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:77:9-83:20
+	android:exported
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:79:13-36
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:78:13-85
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:80:13-82:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:81:17-79
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:81:25-76
+service#com.google.android.gms.analytics.CampaignTrackingService
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:85:9-92
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:85:18-89
+activity#com.prem.docsify.DocumentScannerActivity
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:87:9-100:20
+	android:screenOrientation
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:90:13-68
+	android:configChanges
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:89:13-74
+	android:theme
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:92:13-63
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:88:13-52
+intent-filter#action:name:android.media.action.IMAGE_CAPTURE+category:name:android.intent.category.DEFAULT
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:95:13-99:29
+action#android.media.action.IMAGE_CAPTURE
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:96:17-77
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:96:25-74
+category#android.intent.category.DEFAULT
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:98:17-76
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:98:27-73
+activity#com.prem.docsify.GalleryGridActivity
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:101:9-108:20
+	android:screenOrientation
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:105:13-49
+	android:label
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:104:13-59
+	android:configChanges
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:103:13-74
+	android:theme
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:106:13-51
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:102:13-48
+activity#com.prem.docsify.SavedTextsList
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:109:9-118:20
+	android:parentActivityName
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:113:13-61
+	android:label
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:111:13-53
+	android:launchMode
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:112:13-44
+	android:theme
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:114:13-51
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:110:13-43
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:115:13-117:55
+	android:value
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:117:17-52
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:116:17-63
+provider#com.prem.docsify.data.TextProvider
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:121:9-123:54
+	android:authorities
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:123:13-51
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:122:13-62
+activity#com.prem.docsify.TextDetailActivity
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:125:9-133:20
+	android:parentActivityName
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:128:13-57
+	android:label
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:127:13-53
+	android:theme
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:129:13-51
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:126:13-47
+activity#com.prem.docsify.FullScreenViewActivity
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:135:9-138:54
+	android:label
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:137:13-62
+	android:theme
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:138:13-51
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:136:13-51
+activity#com.prem.docsify.SettingsActivity
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:139:9-142:47
+	android:label
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:141:13-45
+	android:theme
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:142:13-44
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:140:13-45
+activity#com.prem.docsify.OcrCaptureActivity
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:143:9-152:20
+	android:parentActivityName
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:146:13-66
+	android:label
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:145:13-38
+	android:theme
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:147:13-44
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:144:13-47
+meta-data#com.google.android.gms.version
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:154:9-156:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4f9a1b12f37de073c1680f8ebf3a026f\play-services-basement-9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4f9a1b12f37de073c1680f8ebf3a026f\play-services-basement-9.2.1\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:156:13-66
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:155:13-58
+activity#com.prem.docsify.activities.RegisterActivity
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:160:9-162:52
+	android:screenOrientation
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:162:13-49
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:161:13-56
+activity#com.prem.docsify.activities.UsersListActivity
+ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:163:9-165:52
+	android:screenOrientation
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:165:13-49
+	android:name
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml:164:13-57
+uses-sdk
+INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+MERGED from [com.afollestad:drag-select-recyclerview:0.3.6] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\688970594ee22a866c3fb983588fff99\drag-select-recyclerview-0.3.6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.afollestad:drag-select-recyclerview:0.3.6] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\688970594ee22a866c3fb983588fff99\drag-select-recyclerview-0.3.6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\a6f570c68bd485fd2be3ba69ae0ce0f7\fab-toolbar-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\a6f570c68bd485fd2be3ba69ae0ce0f7\fab-toolbar-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\7de06ac3d64fd54bb476605019bdb4c5\play-services-vision-9.2.1\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\7de06ac3d64fd54bb476605019bdb4c5\play-services-vision-9.2.1\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\dee5790e26a5e0ab87c131bd21a6f387\play-services-appindexing-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\dee5790e26a5e0ab87c131bd21a6f387\play-services-appindexing-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [:openCVLibrary310] E:\Android Apps\Document-Scanner\openCVLibrary310\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary310] E:\Android Apps\Document-Scanner\openCVLibrary310\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\c6f2a887dc6e4ecdb7189059249821c9\firebase-core-9.2.1\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-core:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\c6f2a887dc6e4ecdb7189059249821c9\firebase-core-9.2.1\AndroidManifest.xml:4:5-42
+MERGED from [com.android.support:design:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\ef750851e0fe2166dba720019198449c\design-23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\ef750851e0fe2166dba720019198449c\design-23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4e769863cf26204329dffc44080e8638\appcompat-v7-23.3.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4e769863cf26204329dffc44080e8638\appcompat-v7-23.3.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:24.0.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6354af43f6bbe8fcb90e6f0c1ae9ade5\recyclerview-v7-24.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.0.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6354af43f6bbe8fcb90e6f0c1ae9ade5\recyclerview-v7-24.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\0bb6e05f980dc881c4851f8adb3fb7b2\play-services-analytics-impl-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\0bb6e05f980dc881c4851f8adb3fb7b2\play-services-analytics-impl-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\785561a068d3cf65a24fb56196d33ceb\play-services-tasks-9.2.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\785561a068d3cf65a24fb56196d33ceb\play-services-tasks-9.2.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4f9a1b12f37de073c1680f8ebf3a026f\play-services-basement-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4f9a1b12f37de073c1680f8ebf3a026f\play-services-basement-9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\fca3168638df2f89b63402d35d766940\animated-vector-drawable-23.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\fca3168638df2f89b63402d35d766940\animated-vector-drawable-23.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\683d11e93e0749cbc7852a0cc150b95c\support-vector-drawable-23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\683d11e93e0749cbc7852a0cc150b95c\support-vector-drawable-23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\a2860f80a35768057a640b5b4cd1ba77\support-v4-24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\a2860f80a35768057a640b5b4cd1ba77\support-v4-24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:exifinterface:28.0.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\e0bc0b70de41b464788bb188f2619846\exifinterface-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:28.0.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\e0bc0b70de41b464788bb188f2619846\exifinterface-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\bade4d37b9586e47e40b424cf084e94f\cardview-v7-23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\bade4d37b9586e47e40b424cf084e94f\cardview-v7-23.4.0\AndroidManifest.xml:20:5-43
+INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\4e769863cf26204329dffc44080e8638\appcompat-v7-23.3.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Apps\Document-Scanner\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\0bb6e05f980dc881c4851f8adb3fb7b2\play-services-analytics-impl-9.2.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\0bb6e05f980dc881c4851f8adb3fb7b2\play-services-analytics-impl-9.2.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:22:5-68
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\48d7be23a779c9e1b3112e68cf66edd2\play-services-analytics-9.2.1\AndroidManifest.xml:25:22-65
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\6b7d44bcf25ee4446d32acd1cd6fa62f\play-services-base-9.2.1\AndroidManifest.xml:20:19-85
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:29:11-83
+intent-filter#action:name:com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\653d8b94dd5b59445ae9113426621a30\firebase-analytics-impl-9.2.1\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\1f395e9c6314687ea608fee013f79e67\firebase-analytics-9.2.1\AndroidManifest.xml:37:11-82
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:25:17-71
+permission#com.prem.docsify.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:28:22-76
+uses-permission#com.prem.docsify.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:33:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:36:13-40:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:com.prem.docsify
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:39:27-58
+category#com.prem.docsify
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:52:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\8fb8f1121145d57b0d07d5ae49f330dd\firebase-iid-9.2.1\AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Jash\.gradle\caches\transforms-2\files-2.1\f06127a6a155676507106a6c7776d9bf\firebase-common-9.2.1\AndroidManifest.xml:9:13-58
